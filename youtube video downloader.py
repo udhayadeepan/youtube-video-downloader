@@ -66,9 +66,9 @@ def start():
       Label(win,text="Select resolution").grid(row=5,column=1,pady=10,sticky="nsew")
 
       radio=IntVar()
-      r1=Radiobutton(win,text="Low(144p)",variable=radio,value=1).grid(pady=5,row=6,column=1,sticky="nsew")
-      r1=Radiobutton(win,text="Medium(360p)",variable=radio,value=2).grid(row=7,column=1,pady=5,sticky="nsew")
-      r1=Radiobutton(win,text="High(720p)",variable=radio,value=3).grid(row=8,column=1,pady=5,sticky="nsew")
+      r1=Radiobutton(win,text="Low",variable=radio,value=1).grid(pady=5,row=6,column=1,sticky="nsew")
+      r1=Radiobutton(win,text="Medium",variable=radio,value=2).grid(row=7,column=1,pady=5,sticky="nsew")
+      r1=Radiobutton(win,text="High",variable=radio,value=3).grid(row=8,column=1,pady=5,sticky="nsew")
 
 
 
